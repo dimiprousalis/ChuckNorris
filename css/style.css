@@ -1,0 +1,75 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  height: 100%;
+}
+
+body {
+  background-image: radial-gradient(rgb(12, 12, 12), rgb(238, 231, 234));
+}
+
+main {
+  background: rgba(255, 255, 255, 0.934);
+  color: black;
+  width: 600px;
+  padding: 2rem;
+  border: 2px solid darkgray;
+  font-family: Oswald, Times, serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.top {
+  text-align: center;
+}
+
+h3 {
+  padding: 2rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+img {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.bottom {
+  text-align: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
